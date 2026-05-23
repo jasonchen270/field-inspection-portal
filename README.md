@@ -16,6 +16,7 @@ dotnet run --urls http://localhost:5000
 
 # Terminal 2: Web (http://localhost:5173)
 cd web
+cp .env.example .env
 npm run dev
 ```
 
