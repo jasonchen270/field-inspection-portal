@@ -1,6 +1,6 @@
 # Field Inspection Reporting Portal
 
-A portal for field inspectors to capture site reports offline and sync them when reconnected. The web client is a React 18 + TypeScript + Vite SPA using Dexie (IndexedDB) for offline storage, MSAL for Azure AD auth, and React Router, and the API is a .NET 10 Web API on EF Core (SQLite) with Microsoft.Identity.Web.
+A portal for field inspectors to capture site reports offline and sync them when reconnected. The web client is a React + TypeScript + Vite SPA using Dexie (IndexedDB) for offline storage, MSAL for Azure AD auth, and React Router, and the API is a .NET Web API on EF Core (SQLite) with Microsoft.Identity.Web.
 
 ## Prerequisites
 
