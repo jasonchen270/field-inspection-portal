@@ -32,4 +32,4 @@ Dev auth is on by default, so you can sign in with any name. No Azure tenant nee
 - A sync loop runs every 30s, on `online` events, and on manual Sync click. It pushes pending records, then pulls server state.
 - Conflict policy: pending local writes win until pushed; otherwise server wins.
 
-See [docs/](./docs) for architecture and onboarding.
+See [docs/onboarding.md](./docs/onboarding.md) to get started.
